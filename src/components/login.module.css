@@ -1,0 +1,61 @@
+.loginform{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#c03a26;
+    height:300px;
+    width:500px;
+    text-align:center;
+    margin:50px auto;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.username,.password{
+    margin:15px auto;
+    border-radius: 7px;
+    height:30px;
+    width:200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#FCEDDA
+}
+
+.btn{
+    height:auto;
+    padding: 2px 7px;
+    background-color:#FCEDDA;
+    font-size: 1.3rem;
+    border-radius:5px;
+    cursor:pointer;
+    margin-bottom:5px;
+    font-family:'Cambria', 'Cochin', 'Georgia, Times', 'Times New Roman', serif;
+    font-weight:bold;
+}
+.btn:hover{
+    background-color: chocolate;
+}
+h1{
+    text-align:center;
+}
+Link{
+    font-size:0.2rem;
+}
+
+  .loginpage {
+    background-color: #FCEDDA;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginpage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Add more styles for the login form, inputs, buttons, etc. */
+    

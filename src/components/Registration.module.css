@@ -1,0 +1,55 @@
+.regisform{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#FBEAEB ;
+    height:400px;
+    width:500px;
+    text-align:center;
+    margin:50px auto;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.username,.password,.role,.address{
+    margin:15px auto;
+    border-radius: 4px;
+    height:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn{
+    height:auto;
+    padding: 2px 7px;
+    background-color: #2F3C7E;
+    font-size: 1.3rem;
+    border-radius:5px;
+    cursor:pointer;
+    margin-bottom:5px;
+    font-family:'Cambria', 'Cochin', 'Georgia, Times', 'Times New Roman', serif;
+    font-weight:bold;
+    color:#FBEAEB;
+}
+.btn:hover{
+    background-color: chocolate;
+}
+h1{
+    text-align:center;
+}
+Link{
+    font-size:0.2rem;
+}
+.regispage {
+    background-color: #2F3C7E;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .regispage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }

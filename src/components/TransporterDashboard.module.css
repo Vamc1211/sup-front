@@ -1,0 +1,68 @@
+.replyform{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #317773;
+    height:240px;
+    width:500px;
+    text-align:center;
+    margin:50px auto;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.orderID,.price{
+    margin:15px auto;
+    border-radius: 4px;
+    height:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.btn{
+    height:auto;
+    padding: 2px 7px;
+    background-color:#E2D1F9;
+    font-size: 1.3rem;
+    border-radius:5px;
+    cursor:pointer;
+    margin-bottom:5px;
+    font-family:'Cambria', 'Cochin', 'Georgia, Times', 'Times New Roman', serif;
+    font-weight:bold;
+}
+.btn:hover{
+    background-color: chocolate;
+}
+h1{
+    text-align:center;
+}
+.replyform h2{
+    color:#E2D1F9
+}
+.msgbox{
+    display:flex;
+flex-direction:column;
+align-items: center;
+background-color:#317773;
+height:auto;
+width:500px;
+text-align:center;
+margin:10px auto;
+padding-bottom:10px;
+border-radius: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#E2D1F9}
+
+.transpage {
+    background-color:#E2D1F9;
+    height: 110vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .transpage h1 {
+    text-align: right;
+    
+  }
