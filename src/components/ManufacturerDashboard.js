@@ -19,7 +19,7 @@ const ManufacturerDashboard = () => {
 
   useEffect(() => {
     fetchMessages();
-  }, []);
+  }, [id]);
 
   useEffect(()=>{
     async function getTransporters(){

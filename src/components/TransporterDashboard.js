@@ -12,7 +12,7 @@ const TransporterDashboard = () => {
   const{id}=useParams();
 useEffect(()=>{
   fetchMessages();
-},[])
+},[id])
 
 const fetchMessages = async () => {
   try {
